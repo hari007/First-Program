@@ -10,3 +10,16 @@ while x < 10:
     print("X is not equal to 8")
 
 print("Out of loop")
+
+
+
+x = 0
+while x < 10:
+    print("Value of x is " + str(x))
+    x=x+1
+
+    if x == 8:
+        continue
+    print("X is not equal to 8")
+
+print("Out of loop")
