@@ -2,7 +2,7 @@ _Author_ = " HS "
 
 states = ["Ny","Texas","California"]
 
-def Us_tax(state, gross):
+def Us_tax(states, gross):
     if states == "Ny":
         fed_tax = gross * 0.1
         state_tax = gross * 0.1
@@ -20,4 +20,4 @@ def Us_tax(state, gross):
         print("Income for California is " + str(total))
 
 
-Us_tax(states[1], 5000)
+Us_tax(states[0], 5000)
